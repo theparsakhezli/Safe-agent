@@ -1,4 +1,7 @@
-./LINKEDIN.md
-./assets/*
+# LinkedIn material stays on my machine, not in the repo.
+# (Patterns start with "/" = relative to the repo root. Git doesn't understand "./")
+/LINKEDIN.md
+/assets/linkedin-post.png
+/assets/image-source.html
 
-
+# assets/social-preview.png is NOT ignored: the README shows it.
