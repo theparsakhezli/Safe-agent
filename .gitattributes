@@ -1,0 +1,4 @@
+# Shell scripts must keep LF line endings or bash fails with "$'\r': command not found"
+*.sh text eol=lf
+*.md text eol=lf
+*.png binary
