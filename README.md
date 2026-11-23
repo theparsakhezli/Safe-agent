@@ -253,8 +253,8 @@ Every row happened in the real session.
 │   ├── 02-grant-temp-sudo.sh    ← validated, auto-expiring passwordless sudo
 │   ├── preflight.sh             ← read-only diagnostics for boot/kernel problems
 │   └── 03-revoke-access.sh      ← remove sudo (and optionally the key / SSH)
-├── assets/                      ← images (and the HTML source they're rendered from)
-└── LINKEDIN.md                  ← the post that goes with this repo
+└── assets/
+    └── social-preview.png       ← the banner above
 ```
 
 Make the scripts executable after cloning: `chmod +x scripts/*.sh`. Read them before you run them. They're short on purpose.
